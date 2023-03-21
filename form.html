@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/242942fc0d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form >
+        <div class="box">
+        <div class="head">
+            <div class="img">
+                <img src="ptu.png">
+                <div class="uv">
+                <h2>I.K. GUJRAL PUNJAB TECHNICAL UNIVERSITY</h2><br>
+                <h2 class="j">JALANDHAR</h2><br>
+                <h3>Student Registration From</h3>
+                </div>
+                
+            </div>
+            
+            
+        
+        </div>
+        <div class="info">
+            <div class="y">
+            <input type="text" placeholder="Search" class="q">
+            
+            <button type="submit" class="su">submit</button>
+            </div>
+        <br><br><br><br><br>
+        <label for="applied">Applied For:</label>
+        <input type="radio" name="subj"> <span>BBA</span>  <input type="radio" name="subj"> <span>BCA </span><input type="radio" name="subj"><span>B.tech</span><br>
+            <label for="name">Name: &nbsp;&nbsp;</label>
+            <input type="text" placeholder="First Name"class=inp>
+            <input type="text" placeholder="Last Name"class=inp><br>
+            <label for="fathername">Father Name: </label>
+            <input type="text" placeholder="Father name"class=inp><br>
+            <label for="email">Email: &nbsp; &nbsp; </label>
+            <input type="text" placeholder="Email"class=inp><br>
+            <input type="file"id="file">
+            <label for="pass">Password:</label>
+            <input type="Password" placeholder="Password"class=inp><br>
+            <label for="DOB">DOB:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date"class=inp><br><br>
+            <label for="gn">Gender :</label>
+            <input type="radio" name="gender"><span>Male</span><input type="radio" name="gender"><span>Female</span> <br><br><br>
+
+            <label for="address">Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="address" id="add" cols="35" rows="3"></textarea> <br><br>
+            <label for="ctg">Catagory:</label>
+            <input type="radio" name="ctg"><span>SC</span><input type="radio" name="ctg"><span>GEN</span><input type="radio" name="ctg"><span>OBC</span><input type="radio" name="ctg"><span>OTHERS</span><br>
+            <br>
+            
+            <!-- <label for="myfile">Select a file:</label> -->
+            <label>Academic Qualification :</label>
+            <table class="po">
+                <tr>
+                    <th rowspan="2"> Qualification </th>
+                    <th rowspan="2">Year of Passing</th>
+                    <th rowspan="2">Board/University</th>
+                    <th colspan="3">Aggregate Marks</th>
+                </tr>
+                <tr>
+                    <th>Obtained</th>
+                    <th>Maximum</th>
+                    <th>Percentage</th>
+
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td><input type="text"> </td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <br>
+            <label for="dep">Department&nbsp;</label>
+            <input type="text" placeholder="Department" list="department"class=inp> 
+            <datalist id="department">
+                <option value="B.tech">
+                    <option value="B.com"> 
+                        <option value="Bsc"> 
+                            <option value="BBA"> 
+                                <option value="Bca"> 
+            </datalist>
+            
+            <br>
+            <label for="Course">Course&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="your course" list="course"class=inp>
+            <datalist id="course">
+                <option value="CSE">
+                    <option value="ME"> 
+                        <option value="CE"> 
+                            <option value="AR"> 
+                                <option value="MLS"> 
+            </datalist>
+            <br>
+            <label for="city">City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="city" list="city"class=inp>
+            <datalist id="city">
+                <option value="Ludhiana">
+                    <option value="Chandigrah"> 
+                        <option value="Patiala"> 
+                            <option value="Amritshar"> 
+                                <option value="Kalkata"> 
+            </datalist>
+            <br>
+            <label for="pin">Pincode&nbsp;&nbsp;</label>
+            <input type="text" placeholder="city Pincode"class=inp> <br>
+            <label for="state">State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Current City" list="state"class=inp> 
+            <datalist id="state">
+                <option value="Punjab">
+                    <option value="Hariana"> 
+                        <option value="Chennai"> 
+                            <option value="Delhi"> 
+                                <option value="West Bengal"> 
+            </datalist>
+            <br>
+            <label for="country">Country&nbsp;&nbsp;</label>
+            <input type="text" placeholder="your country" list="country"class=inp>
+            <datalist id="country">
+                <option value="Bangladesh">
+                    <option value="India"> 
+                        <option value="Nepal"> 
+                            <option value="China"> 
+                                <option value="UK"> 
+            </datalist>
+            <br>
+            <label for="mob">Mobile Number</label>
+            <input type="text" class=inp>
+            <p class="a"><input type="checkbox">I accept the terms and condition</p>
+            <br><br>
+            <hr> 
+            <button class="btn">Reset</button>
+            <button id="btn">Submit Form</button>
+
+        </div>
+        </div>
+        
+    </form>
+</body>
+</html>
